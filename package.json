@@ -10,10 +10,16 @@
     "lint": "turbo lint"
   },
   "devDependencies": {
-    "eslint-config-custom": "*",
+    "dotenv-cli": "^7.2.1",
     "eslint": "7.32.0",
+    "eslint-config-custom": "*",
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@1.22.19",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@mui/material": "^5.14.0"
+  }
 }
